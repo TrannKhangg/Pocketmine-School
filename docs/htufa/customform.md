@@ -23,6 +23,7 @@ public function testForm($player){
         var_dump($data); // Sends all data to console
     });
     $form->setTitle("Form Title"); //This sets the title of the form
+    $form->addButton("Button Title"); //This adds a Button, You can use this for a Command Shortcut at Case
     $form->addLabel("Text"); //This adds a Label to the form
     $form->addToggle("Toggle"); //This adds a Toggle to the form
     $form->addSlider("Slider", 1, 100); // This adds a Slider, Min 1, Max 100
